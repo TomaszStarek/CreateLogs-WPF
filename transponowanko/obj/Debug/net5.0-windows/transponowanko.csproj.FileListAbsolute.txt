@@ -23,3 +23,28 @@ C:\Users\2281209\source\repos\transponowanko\transponowanko\obj\Debug\net5.0-win
 C:\Users\2281209\source\repos\transponowanko\transponowanko\bin\Debug\net5.0-windows\ExcelLibrary.dll
 C:\Users\2281209\source\repos\transponowanko\transponowanko\obj\Debug\net5.0-windows\transponowanko.csproj.CopyComplete
 C:\Users\2281209\source\repos\transponowanko\transponowanko\bin\Debug\net5.0-windows\SwiftExcel.dll
+C:\Users\2281209\source\repos\transponowanko - backup3 - gotowe\transponowanko\bin\Debug\net5.0-windows\transponowanko.exe
+C:\Users\2281209\source\repos\transponowanko - backup3 - gotowe\transponowanko\bin\Debug\net5.0-windows\transponowanko.deps.json
+C:\Users\2281209\source\repos\transponowanko - backup3 - gotowe\transponowanko\bin\Debug\net5.0-windows\transponowanko.runtimeconfig.json
+C:\Users\2281209\source\repos\transponowanko - backup3 - gotowe\transponowanko\bin\Debug\net5.0-windows\transponowanko.runtimeconfig.dev.json
+C:\Users\2281209\source\repos\transponowanko - backup3 - gotowe\transponowanko\bin\Debug\net5.0-windows\transponowanko.dll
+C:\Users\2281209\source\repos\transponowanko - backup3 - gotowe\transponowanko\bin\Debug\net5.0-windows\ref\transponowanko.dll
+C:\Users\2281209\source\repos\transponowanko - backup3 - gotowe\transponowanko\bin\Debug\net5.0-windows\transponowanko.pdb
+C:\Users\2281209\source\repos\transponowanko - backup3 - gotowe\transponowanko\bin\Debug\net5.0-windows\SwiftExcel.dll
+C:\Users\2281209\source\repos\transponowanko - backup3 - gotowe\transponowanko\bin\Debug\net5.0-windows\ExcelLibrary.dll
+C:\Users\2281209\source\repos\transponowanko - backup3 - gotowe\transponowanko\obj\Debug\net5.0-windows\transponowanko.csproj.AssemblyReference.cache
+C:\Users\2281209\source\repos\transponowanko - backup3 - gotowe\transponowanko\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\2281209\source\repos\transponowanko - backup3 - gotowe\transponowanko\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\2281209\source\repos\transponowanko - backup3 - gotowe\transponowanko\obj\Debug\net5.0-windows\transponowanko_MarkupCompile.cache
+C:\Users\2281209\source\repos\transponowanko - backup3 - gotowe\transponowanko\obj\Debug\net5.0-windows\transponowanko_MarkupCompile.lref
+C:\Users\2281209\source\repos\transponowanko - backup3 - gotowe\transponowanko\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\2281209\source\repos\transponowanko - backup3 - gotowe\transponowanko\obj\Debug\net5.0-windows\transponowanko.g.resources
+C:\Users\2281209\source\repos\transponowanko - backup3 - gotowe\transponowanko\obj\Debug\net5.0-windows\transponowanko.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2281209\source\repos\transponowanko - backup3 - gotowe\transponowanko\obj\Debug\net5.0-windows\transponowanko.AssemblyInfoInputs.cache
+C:\Users\2281209\source\repos\transponowanko - backup3 - gotowe\transponowanko\obj\Debug\net5.0-windows\transponowanko.AssemblyInfo.cs
+C:\Users\2281209\source\repos\transponowanko - backup3 - gotowe\transponowanko\obj\Debug\net5.0-windows\transponowanko.csproj.CoreCompileInputs.cache
+C:\Users\2281209\source\repos\transponowanko - backup3 - gotowe\transponowanko\obj\Debug\net5.0-windows\transponowanko.csproj.CopyComplete
+C:\Users\2281209\source\repos\transponowanko - backup3 - gotowe\transponowanko\obj\Debug\net5.0-windows\transponowanko.dll
+C:\Users\2281209\source\repos\transponowanko - backup3 - gotowe\transponowanko\obj\Debug\net5.0-windows\ref\transponowanko.dll
+C:\Users\2281209\source\repos\transponowanko - backup3 - gotowe\transponowanko\obj\Debug\net5.0-windows\transponowanko.pdb
+C:\Users\2281209\source\repos\transponowanko - backup3 - gotowe\transponowanko\obj\Debug\net5.0-windows\transponowanko.genruntimeconfig.cache

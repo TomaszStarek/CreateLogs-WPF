@@ -72,14 +72,6 @@ namespace transponowanko
                     Dispatcher.Invoke(new Action(() => button3.Visibility = Visibility.Visible));
                     Dispatcher.Invoke(new Action(() => label_state.Content = "4. Wygeneruj plik!"));
                 }
-                    
-                //var match = data_list
-                //            .Where(stringToCheck => stringToCheck.Contains(myString));
-                //// textBox1.Text = match[0];
-
-
-                //MessageBox.Show(match.Count().ToString());
-                //int i = 0;
 
             }
         }
@@ -87,17 +79,16 @@ namespace transponowanko
 
 
         bool finded_string;
-        string[][] subs;
-        List<string> header_list = new List<string>();
-        List<string> data_list = new List<string>();
+        //string[][] subs;
+        //List<string> header_list = new List<string>();
+        //List<string> data_list = new List<string>();
         List<string> finded_list = new List<string>();
 
         string[] header_array = new string[] { };
         string[] data_array = new string[] { };
-        //          string[] data2_array = new string[] { };
 
         string fileContent = string.Empty;
-        string filePath = string.Empty;
+        //string filePath = string.Empty;
         string directoryName;
 
         private void button1_Click(object sender, RoutedEventArgs e)
@@ -126,7 +117,7 @@ namespace transponowanko
             openFileDialog.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyComputer);
             //     openFileDialog.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
             
-            filePath = openFileDialog.FileName;
+            //filePath = openFileDialog.FileName;
             if (openFileDialog.ShowDialog() == true)
             {
                 foreach (string filename in openFileDialog.FileNames)
@@ -302,24 +293,6 @@ namespace transponowanko
             else
                 MessageBox.Show("Wprowadź poprawny numer do wyszukania!");
 
-            
-
-            //foreach (string disp in header_array)
-            //    MessageBox.Show(disp);
-
-            //foreach (string disp in data_array)
-            //    MessageBox.Show(disp);
-
-            ////////////////////////////foreach (string disp in finded_list)
-            ////////////////////////////    MessageBox.Show(disp);
-
-
-            //foreach (string disp2 in subs[0])
-            //    MessageBox.Show(disp2);
-            //foreach (string disp2 in subs[1])
-            //    MessageBox.Show(disp2);
-            //foreach (string disp2 in subs[2])
-            //    MessageBox.Show(disp2);
         }
 
         string[] bufor_to_excel1;
@@ -336,22 +309,6 @@ namespace transponowanko
 
 
             string[,] bufor_to_excel3 = new string[finded_list.Count + 8, array_ln + 25];
-
-            //     string file = "C:/logi/newdoc.xls";
-            //     Workbook workbook = new Workbook();
-            //     Worksheet worksheet = new Worksheet("First Sheet");
-            //     worksheet.Cells[0, 1] = new Cell((short)1);
-            //    worksheet.Cells[2, 0] = new Cell(9999999);
-            //    worksheet.Cells[3, 3] = new Cell((decimal)3.45);
-            //   worksheet.Cells[2, 2] = new Cell("Text string");
-            //   worksheet.Cells[2, 4] = new Cell("Second string");
-            //   worksheet.Cells[4, 0] = new Cell(32764.5, "#,##0.00");
-            //  worksheet.Cells[5, 1] = new Cell(DateTime.Now, @"YYYY-MM-DD");
-            //  worksheet.Cells.ColumnWidth[0, 1] = 3000;
-            //   workbook.Worksheets.Add(worksheet);
-            //   workbook.Save(file);
-
-            //header_array
 
             string file_name;
 
@@ -393,10 +350,6 @@ namespace transponowanko
             {
                 sciezka = @"C:\\TEST_LOG\\logi_gotowe\\";
             }
-
-
-           
-
 
 
             if (Directory.Exists(sciezka))       //sprawdzanie czy  istnieje
