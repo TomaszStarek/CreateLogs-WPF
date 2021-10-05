@@ -58,11 +58,19 @@ namespace transponowanko
                 {
                     finded_string = false;
                     MessageBox.Show("Nie znaleziono podanego ciągu znaków!");
+
+                    Dispatcher.Invoke(new Action(() => label_state.Content = "3. Podaj numer który występuje w pliku \r\n i wciśnij enter!"));
                 }
                 else
                 {
                     finded_string = true;
-                    MessageBox.Show("Znaleziono: " + i.ToString() + " logów");
+                //    MessageBox.Show("Znaleziono: " + i.ToString() + " logów");
+
+
+                   // Dispatcher.Invoke(new Action(() => label_sciezka_dane.Content = filename));
+                    Dispatcher.Invoke(new Action(() => button4.Visibility = Visibility.Visible));
+                    Dispatcher.Invoke(new Action(() => button3.Visibility = Visibility.Visible));
+                    Dispatcher.Invoke(new Action(() => label_state.Content = "4. Wygeneruj plik!"));
                 }
                     
                 //var match = data_list
@@ -90,6 +98,7 @@ namespace transponowanko
 
         string fileContent = string.Empty;
         string filePath = string.Empty;
+        string directoryName;
 
         private void button1_Click(object sender, RoutedEventArgs e)
         {
@@ -116,16 +125,40 @@ namespace transponowanko
 
             openFileDialog.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyComputer);
             //     openFileDialog.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
-
+            
             filePath = openFileDialog.FileName;
             if (openFileDialog.ShowDialog() == true)
             {
                 foreach (string filename in openFileDialog.FileNames)
                 {
                     if (mode == 1)
-                        label_sciezka_naglowek.Content = filename;
+                    {
+                        Dispatcher.Invoke(new Action(() => label_sciezka_naglowek.Content = filename));
+                        Dispatcher.Invoke(new Action(() => button2.Visibility = Visibility.Visible));
+                        Dispatcher.Invoke(new Action(() => label3_Copy.Visibility = Visibility.Visible));
+                        Dispatcher.Invoke(new Action(() => label_sciezka_dane.Visibility = Visibility.Visible));
+
+                        Dispatcher.Invoke(new Action(() => textBox1.Visibility = Visibility.Hidden));
+                        Dispatcher.Invoke(new Action(() => label.Visibility = Visibility.Hidden));
+
+                        Dispatcher.Invoke(new Action(() => button4.Visibility = Visibility.Hidden));
+                        Dispatcher.Invoke(new Action(() => button3.Visibility = Visibility.Hidden));
+
+                        Dispatcher.Invoke(new Action(() => label_state.Content = "2. Wybierz plik z danymi!"));
+                    }
                     else
-                        label_sciezka_dane.Content = filename;
+                    {
+                        directoryName = Path.GetDirectoryName(filename);
+                        Dispatcher.Invoke(new Action(() => label_sciezka_dane.Content = filename));
+                        Dispatcher.Invoke(new Action(() => textBox1.Visibility = Visibility.Visible));
+                        Dispatcher.Invoke(new Action(() => label.Visibility = Visibility.Visible));
+
+                        Dispatcher.Invoke(new Action(() => button4.Visibility = Visibility.Hidden));
+                        Dispatcher.Invoke(new Action(() => button3.Visibility = Visibility.Hidden));
+
+                        Dispatcher.Invoke(new Action(() => label_state.Content = "3. Wprowadź numer seryjny \r\n i wciśnij enter!"));
+                    }
+                      //  label_sciezka_dane.Content = filename;
 
                     //  lbFiles.Items.Add(Path.GetFileName(filename));
                     //  lbFiles.Items.Add(filename);
@@ -162,7 +195,14 @@ namespace transponowanko
 
 
              myString = Regex.Replace(myString, @"\s+", string.Empty);
-            string sciezka = @"C:\\TEST_LOG\\logi_gotowe\\";
+            //  string sciezka = @"C:\\TEST_LOG\\logi_gotowe\\";
+            string sciezka = directoryName + "\\";
+            if (sciezka.Length < 2)
+            {
+                sciezka = @"C:\\TEST_LOG\\logi_gotowe\\";
+            }
+
+
             string sourceFile = @sciezka + @myString + localDate.ToString("_yyyy'.'MM'.'dd'_['HH'.'mm'.'ss]") + @".txt";
 
 
@@ -232,6 +272,10 @@ namespace transponowanko
 
 
             }
+
+                MessageBox.Show("Sprawdź lokalizację: " + sciezka + "wprowadzonynumer_yyyy.mm.dd_[hh.mm.ss].txt");
+
+
         }
 
 
@@ -253,11 +297,13 @@ namespace transponowanko
 
         private void button4_Click(object sender, RoutedEventArgs e)
         {
-            tworzenie_loga();
-            if(finded_string)
-                MessageBox.Show("Sprawdź folder E:\\TEST_LOG\\logi_gotowe\\szukany_numer.txt");
+            if (finded_string)
+                tworzenie_loga();
             else
                 MessageBox.Show("Wprowadź poprawny numer do wyszukania!");
+
+            
+
             //foreach (string disp in header_array)
             //    MessageBox.Show(disp);
 
@@ -342,7 +388,28 @@ namespace transponowanko
 
             DateTime localDate = DateTime.Now;
 
-                using (var ew = new ExcelWriter("C:\\TEST_LOG\\logi_gotowe\\" + file_name + localDate.ToString("_yyyy'.'MM'.'dd'_['HH'.'mm'.'ss]") + ".xlsx"))
+            string sciezka = directoryName + "\\";
+            if (sciezka.Length < 2)
+            {
+                sciezka = @"C:\\TEST_LOG\\logi_gotowe\\";
+            }
+
+
+           
+
+
+
+            if (Directory.Exists(sciezka))       //sprawdzanie czy  istnieje
+            {
+                ;
+            }
+            else
+                System.IO.Directory.CreateDirectory(sciezka); //jeśli nie to ją tworzy
+
+
+
+
+            using (var ew = new ExcelWriter(sciezka + file_name + localDate.ToString("_yyyy'.'MM'.'dd'_['HH'.'mm'.'ss]") + ".xlsx"))
                 {
 
                     for (var row = 1; row < bufor_to_excel3.GetLength(1); row++)
@@ -355,15 +422,21 @@ namespace transponowanko
                         }
                     }
                 }
-            }
+            MessageBox.Show("Sprawdź lokalizację: " + sciezka + "wprowadzonynumer_yyyy.mm.dd_[hh.mm.ss].txt");
+
+        }
 
         private void button3_Click_1(object sender, RoutedEventArgs e)
         {
-            save_file_excel();
             if (finded_string)
-                MessageBox.Show("Sprawdź folder E:\\TEST_LOG\\logi_gotowe\\szukany_numer.txt");
+                save_file_excel();
             else
                 MessageBox.Show("Wprowadź poprawny numer do wyszukania!");
+            
+            //if (finded_string)
+            //    MessageBox.Show("Sprawdź folder E:\\TEST_LOG\\logi_gotowe\\szukany_numer.txt");
+            //else
+            //    MessageBox.Show("Wprowadź poprawny numer do wyszukania!");
 
 
             
@@ -373,5 +446,17 @@ namespace transponowanko
         {
             finded_string = false;
         }
+
+
+
+
+        private void testowanie_dousuniecia()
+        {
+            Dispatcher.Invoke(new Action(() => textBox1.Text = "" ));
+        }
+
+
+
+
     }
 }
