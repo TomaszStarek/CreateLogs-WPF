@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "eLYV2f+iM+VwTuAd9HzE0vDvrNGz9JME/iY57Hy42VLxOdWBvrZRsCFm1nzQgbmByR7/36y637qjTF93dgXG6g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\2281209\\source\\repos\\transponowanko\\transponowanko\\transponowanko.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\2281209\\.nuget\\packages\\swiftexcel\\1.0.9\\swiftexcel.1.0.9.nupkg.sha512",
+    "C:\\Users\\2281209\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
