@@ -28,6 +28,7 @@
         <Label x:Name="label3" Content="Wybrano plik nagłówkowy:" Margin="10,84,130,57" d:LayoutOverrides="HorizontalAlignment, VerticalAlignment, LeftMargin, RightMargin, TopMargin, BottomMargin"/>
         <Button x:Name="button4" Content="Utworz plik txt" Click="button4_Click" d:LayoutOverrides="TopMargin, BottomMargin" Grid.Row="2" VerticalAlignment="Center" Height="40" Margin="23,0,0,0" HorizontalAlignment="Left" Width="108"/>
         <Button x:Name="button3" Content="Utwórz plik excel" Margin="191,0,0,0" Grid.Row="2" Click="button3_Click_1" Width="108" d:LayoutOverrides="TopMargin, BottomMargin" HorizontalAlignment="Left" VerticalAlignment="Center" Height="40"/>
+        <Label x:Name="label1" Content="Label" Grid.Column="1" HorizontalAlignment="Left" Margin="193,0,0,0" Grid.Row="1" VerticalAlignment="Center" Height="53" Width="86"/>
 
     </Grid>
 </Window>
