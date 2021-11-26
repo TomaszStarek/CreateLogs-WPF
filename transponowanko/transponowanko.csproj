@@ -4,9 +4,12 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net5.0-windows</TargetFramework>
     <UseWPF>true</UseWPF>
+    <AssemblyName>CreateLogsApp</AssemblyName>
+    <RootNamespace>CreateLogsApp</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="ClosedXML" Version="0.95.4" />
     <PackageReference Include="SwiftExcel" Version="1.0.9" />
   </ItemGroup>
 

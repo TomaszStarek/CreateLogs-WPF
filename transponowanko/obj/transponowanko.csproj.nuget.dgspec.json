@@ -1,21 +1,22 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\2281209\\source\\repos\\transponowanko\\transponowanko\\transponowanko.csproj": {}
+    "C:\\Users\\2281209\\source\\repos\\linq_tworzenie logow\\transponowanko\\transponowanko.csproj": {}
   },
   "projects": {
-    "C:\\Users\\2281209\\source\\repos\\transponowanko\\transponowanko\\transponowanko.csproj": {
+    "C:\\Users\\2281209\\source\\repos\\linq_tworzenie logow\\transponowanko\\transponowanko.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\2281209\\source\\repos\\transponowanko\\transponowanko\\transponowanko.csproj",
-        "projectName": "transponowanko",
-        "projectPath": "C:\\Users\\2281209\\source\\repos\\transponowanko\\transponowanko\\transponowanko.csproj",
+        "projectUniqueName": "C:\\Users\\2281209\\source\\repos\\linq_tworzenie logow\\transponowanko\\transponowanko.csproj",
+        "projectName": "CreateLogsApp",
+        "projectPath": "C:\\Users\\2281209\\source\\repos\\linq_tworzenie logow\\transponowanko\\transponowanko.csproj",
         "packagesPath": "C:\\Users\\2281209\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\2281209\\source\\repos\\transponowanko\\transponowanko\\obj\\",
+        "outputPath": "C:\\Users\\2281209\\source\\repos\\linq_tworzenie logow\\transponowanko\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\2281209\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,6 +47,10 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "dependencies": {
+            "ClosedXML": {
+              "target": "Package",
+              "version": "[0.95.4, )"
+            },
             "SwiftExcel": {
               "target": "Package",
               "version": "[1.0.9, )"

@@ -48,3 +48,87 @@ C:\Users\2281209\source\repos\transponowanko - backup3 - gotowe\transponowanko\o
 C:\Users\2281209\source\repos\transponowanko - backup3 - gotowe\transponowanko\obj\Debug\net5.0-windows\ref\transponowanko.dll
 C:\Users\2281209\source\repos\transponowanko - backup3 - gotowe\transponowanko\obj\Debug\net5.0-windows\transponowanko.pdb
 C:\Users\2281209\source\repos\transponowanko - backup3 - gotowe\transponowanko\obj\Debug\net5.0-windows\transponowanko.genruntimeconfig.cache
+C:\Users\2281209\source\repos\linq_transportowanko\transponowanko\bin\Debug\net5.0-windows\transponowanko.exe
+C:\Users\2281209\source\repos\linq_transportowanko\transponowanko\bin\Debug\net5.0-windows\transponowanko.deps.json
+C:\Users\2281209\source\repos\linq_transportowanko\transponowanko\bin\Debug\net5.0-windows\transponowanko.runtimeconfig.json
+C:\Users\2281209\source\repos\linq_transportowanko\transponowanko\bin\Debug\net5.0-windows\transponowanko.runtimeconfig.dev.json
+C:\Users\2281209\source\repos\linq_transportowanko\transponowanko\bin\Debug\net5.0-windows\transponowanko.dll
+C:\Users\2281209\source\repos\linq_transportowanko\transponowanko\bin\Debug\net5.0-windows\ref\transponowanko.dll
+C:\Users\2281209\source\repos\linq_transportowanko\transponowanko\bin\Debug\net5.0-windows\transponowanko.pdb
+C:\Users\2281209\source\repos\linq_transportowanko\transponowanko\bin\Debug\net5.0-windows\SwiftExcel.dll
+C:\Users\2281209\source\repos\linq_transportowanko\transponowanko\bin\Debug\net5.0-windows\ExcelLibrary.dll
+C:\Users\2281209\source\repos\linq_transportowanko\transponowanko\obj\Debug\net5.0-windows\transponowanko.csproj.AssemblyReference.cache
+C:\Users\2281209\source\repos\linq_transportowanko\transponowanko\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\2281209\source\repos\linq_transportowanko\transponowanko\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\2281209\source\repos\linq_transportowanko\transponowanko\obj\Debug\net5.0-windows\transponowanko_MarkupCompile.cache
+C:\Users\2281209\source\repos\linq_transportowanko\transponowanko\obj\Debug\net5.0-windows\transponowanko_MarkupCompile.lref
+C:\Users\2281209\source\repos\linq_transportowanko\transponowanko\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\2281209\source\repos\linq_transportowanko\transponowanko\obj\Debug\net5.0-windows\transponowanko.g.resources
+C:\Users\2281209\source\repos\linq_transportowanko\transponowanko\obj\Debug\net5.0-windows\transponowanko.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2281209\source\repos\linq_transportowanko\transponowanko\obj\Debug\net5.0-windows\transponowanko.AssemblyInfoInputs.cache
+C:\Users\2281209\source\repos\linq_transportowanko\transponowanko\obj\Debug\net5.0-windows\transponowanko.AssemblyInfo.cs
+C:\Users\2281209\source\repos\linq_transportowanko\transponowanko\obj\Debug\net5.0-windows\transponowanko.csproj.CoreCompileInputs.cache
+C:\Users\2281209\source\repos\linq_transportowanko\transponowanko\obj\Debug\net5.0-windows\transponowanko.csproj.CopyComplete
+C:\Users\2281209\source\repos\linq_transportowanko\transponowanko\obj\Debug\net5.0-windows\transponowanko.dll
+C:\Users\2281209\source\repos\linq_transportowanko\transponowanko\obj\Debug\net5.0-windows\ref\transponowanko.dll
+C:\Users\2281209\source\repos\linq_transportowanko\transponowanko\obj\Debug\net5.0-windows\transponowanko.pdb
+C:\Users\2281209\source\repos\linq_transportowanko\transponowanko\obj\Debug\net5.0-windows\transponowanko.genruntimeconfig.cache
+C:\Users\2281209\source\repos\linq_transportowanko\transponowanko\bin\Debug\net5.0-windows\ClosedXML.dll
+C:\Users\2281209\source\repos\linq_transportowanko\transponowanko\bin\Debug\net5.0-windows\DocumentFormat.OpenXml.dll
+C:\Users\2281209\source\repos\linq_transportowanko\transponowanko\bin\Debug\net5.0-windows\ExcelNumberFormat.dll
+C:\Users\2281209\source\repos\linq_transportowanko - nowa ver\transponowanko\bin\Debug\net5.0-windows\transponowanko.exe
+C:\Users\2281209\source\repos\linq_transportowanko - nowa ver\transponowanko\bin\Debug\net5.0-windows\transponowanko.deps.json
+C:\Users\2281209\source\repos\linq_transportowanko - nowa ver\transponowanko\bin\Debug\net5.0-windows\transponowanko.runtimeconfig.json
+C:\Users\2281209\source\repos\linq_transportowanko - nowa ver\transponowanko\bin\Debug\net5.0-windows\transponowanko.runtimeconfig.dev.json
+C:\Users\2281209\source\repos\linq_transportowanko - nowa ver\transponowanko\bin\Debug\net5.0-windows\transponowanko.dll
+C:\Users\2281209\source\repos\linq_transportowanko - nowa ver\transponowanko\bin\Debug\net5.0-windows\ref\transponowanko.dll
+C:\Users\2281209\source\repos\linq_transportowanko - nowa ver\transponowanko\bin\Debug\net5.0-windows\transponowanko.pdb
+C:\Users\2281209\source\repos\linq_transportowanko - nowa ver\transponowanko\bin\Debug\net5.0-windows\ClosedXML.dll
+C:\Users\2281209\source\repos\linq_transportowanko - nowa ver\transponowanko\bin\Debug\net5.0-windows\DocumentFormat.OpenXml.dll
+C:\Users\2281209\source\repos\linq_transportowanko - nowa ver\transponowanko\bin\Debug\net5.0-windows\ExcelNumberFormat.dll
+C:\Users\2281209\source\repos\linq_transportowanko - nowa ver\transponowanko\bin\Debug\net5.0-windows\SwiftExcel.dll
+C:\Users\2281209\source\repos\linq_transportowanko - nowa ver\transponowanko\bin\Debug\net5.0-windows\ExcelLibrary.dll
+C:\Users\2281209\source\repos\linq_transportowanko - nowa ver\transponowanko\obj\Debug\net5.0-windows\transponowanko.csproj.AssemblyReference.cache
+C:\Users\2281209\source\repos\linq_transportowanko - nowa ver\transponowanko\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\2281209\source\repos\linq_transportowanko - nowa ver\transponowanko\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\2281209\source\repos\linq_transportowanko - nowa ver\transponowanko\obj\Debug\net5.0-windows\transponowanko_MarkupCompile.cache
+C:\Users\2281209\source\repos\linq_transportowanko - nowa ver\transponowanko\obj\Debug\net5.0-windows\transponowanko_MarkupCompile.lref
+C:\Users\2281209\source\repos\linq_transportowanko - nowa ver\transponowanko\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\2281209\source\repos\linq_transportowanko - nowa ver\transponowanko\obj\Debug\net5.0-windows\transponowanko.g.resources
+C:\Users\2281209\source\repos\linq_transportowanko - nowa ver\transponowanko\obj\Debug\net5.0-windows\transponowanko.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2281209\source\repos\linq_transportowanko - nowa ver\transponowanko\obj\Debug\net5.0-windows\transponowanko.AssemblyInfoInputs.cache
+C:\Users\2281209\source\repos\linq_transportowanko - nowa ver\transponowanko\obj\Debug\net5.0-windows\transponowanko.AssemblyInfo.cs
+C:\Users\2281209\source\repos\linq_transportowanko - nowa ver\transponowanko\obj\Debug\net5.0-windows\transponowanko.csproj.CoreCompileInputs.cache
+C:\Users\2281209\source\repos\linq_transportowanko - nowa ver\transponowanko\obj\Debug\net5.0-windows\transponowanko.csproj.CopyComplete
+C:\Users\2281209\source\repos\linq_transportowanko - nowa ver\transponowanko\obj\Debug\net5.0-windows\transponowanko.dll
+C:\Users\2281209\source\repos\linq_transportowanko - nowa ver\transponowanko\obj\Debug\net5.0-windows\ref\transponowanko.dll
+C:\Users\2281209\source\repos\linq_transportowanko - nowa ver\transponowanko\obj\Debug\net5.0-windows\transponowanko.pdb
+C:\Users\2281209\source\repos\linq_transportowanko - nowa ver\transponowanko\obj\Debug\net5.0-windows\transponowanko.genruntimeconfig.cache
+C:\Users\2281209\source\repos\linq_tworzenie logow\transponowanko\bin\Debug\net5.0-windows\CreateLogsApp.exe
+C:\Users\2281209\source\repos\linq_tworzenie logow\transponowanko\bin\Debug\net5.0-windows\CreateLogsApp.deps.json
+C:\Users\2281209\source\repos\linq_tworzenie logow\transponowanko\bin\Debug\net5.0-windows\CreateLogsApp.runtimeconfig.json
+C:\Users\2281209\source\repos\linq_tworzenie logow\transponowanko\bin\Debug\net5.0-windows\CreateLogsApp.runtimeconfig.dev.json
+C:\Users\2281209\source\repos\linq_tworzenie logow\transponowanko\bin\Debug\net5.0-windows\CreateLogsApp.dll
+C:\Users\2281209\source\repos\linq_tworzenie logow\transponowanko\bin\Debug\net5.0-windows\ref\CreateLogsApp.dll
+C:\Users\2281209\source\repos\linq_tworzenie logow\transponowanko\bin\Debug\net5.0-windows\CreateLogsApp.pdb
+C:\Users\2281209\source\repos\linq_tworzenie logow\transponowanko\bin\Debug\net5.0-windows\ClosedXML.dll
+C:\Users\2281209\source\repos\linq_tworzenie logow\transponowanko\bin\Debug\net5.0-windows\DocumentFormat.OpenXml.dll
+C:\Users\2281209\source\repos\linq_tworzenie logow\transponowanko\bin\Debug\net5.0-windows\ExcelNumberFormat.dll
+C:\Users\2281209\source\repos\linq_tworzenie logow\transponowanko\bin\Debug\net5.0-windows\SwiftExcel.dll
+C:\Users\2281209\source\repos\linq_tworzenie logow\transponowanko\bin\Debug\net5.0-windows\ExcelLibrary.dll
+C:\Users\2281209\source\repos\linq_tworzenie logow\transponowanko\obj\Debug\net5.0-windows\transponowanko.csproj.AssemblyReference.cache
+C:\Users\2281209\source\repos\linq_tworzenie logow\transponowanko\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\2281209\source\repos\linq_tworzenie logow\transponowanko\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\2281209\source\repos\linq_tworzenie logow\transponowanko\obj\Debug\net5.0-windows\CreateLogsApp_MarkupCompile.cache
+C:\Users\2281209\source\repos\linq_tworzenie logow\transponowanko\obj\Debug\net5.0-windows\CreateLogsApp_MarkupCompile.lref
+C:\Users\2281209\source\repos\linq_tworzenie logow\transponowanko\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\2281209\source\repos\linq_tworzenie logow\transponowanko\obj\Debug\net5.0-windows\CreateLogsApp.g.resources
+C:\Users\2281209\source\repos\linq_tworzenie logow\transponowanko\obj\Debug\net5.0-windows\transponowanko.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2281209\source\repos\linq_tworzenie logow\transponowanko\obj\Debug\net5.0-windows\transponowanko.AssemblyInfoInputs.cache
+C:\Users\2281209\source\repos\linq_tworzenie logow\transponowanko\obj\Debug\net5.0-windows\transponowanko.AssemblyInfo.cs
+C:\Users\2281209\source\repos\linq_tworzenie logow\transponowanko\obj\Debug\net5.0-windows\transponowanko.csproj.CoreCompileInputs.cache
+C:\Users\2281209\source\repos\linq_tworzenie logow\transponowanko\obj\Debug\net5.0-windows\transponowanko.csproj.CopyComplete
+C:\Users\2281209\source\repos\linq_tworzenie logow\transponowanko\obj\Debug\net5.0-windows\CreateLogsApp.dll
+C:\Users\2281209\source\repos\linq_tworzenie logow\transponowanko\obj\Debug\net5.0-windows\ref\CreateLogsApp.dll
+C:\Users\2281209\source\repos\linq_tworzenie logow\transponowanko\obj\Debug\net5.0-windows\CreateLogsApp.pdb
+C:\Users\2281209\source\repos\linq_tworzenie logow\transponowanko\obj\Debug\net5.0-windows\transponowanko.genruntimeconfig.cache
